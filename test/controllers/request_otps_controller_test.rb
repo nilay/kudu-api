@@ -11,7 +11,7 @@ class RequestOtpsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should create request_otp" do
-    assert_difference('RequestOtp.count') do
+    assert_difference('Otp.count') do
       post request_otps_url, params: { request_otp: {  } }, as: :json
     end
 
@@ -29,7 +29,7 @@ class RequestOtpsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should destroy request_otp" do
-    assert_difference('RequestOtp.count', -1) do
+    assert_difference('Otp.count', -1) do
       delete request_otp_url(@request_otp), as: :json
     end
 

@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
-  resources :request_otps 
-  resources :validate_otps
-
+  namespace :v1, defaults: { format: :json } do
+    resources :otp, only: [:create]
+    resources :verify_otp, only: [:create]
+  end
 end
 
