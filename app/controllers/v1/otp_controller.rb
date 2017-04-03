@@ -1,6 +1,5 @@
 class V1::OtpController < V1::ApplicationController
-
-
+ 
   # POST /request_otps
   def create
     @otp = Otp.new(otp_params)
@@ -16,3 +15,13 @@ class V1::OtpController < V1::ApplicationController
     params.require(:otp).permit  :phone_number
   end
 end
+
+
+
+
+
+
+
+
+
+
