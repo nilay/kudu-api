@@ -1,0 +1,13 @@
+current directory: /home/nilay/myWork/kudu-api/vendor/bundle/gems/json-1.8.6/ext/json
+/home/nilay/.rbenv/versions/2.4.0/bin/ruby -r ./siteconf20170331-21196-1ulg2r2.rb extconf.rb
+creating Makefile
+
+current directory: /home/nilay/myWork/kudu-api/vendor/bundle/gems/json-1.8.6/ext/json
+make "DESTDIR=" clean
+
+current directory: /home/nilay/myWork/kudu-api/vendor/bundle/gems/json-1.8.6/ext/json
+make "DESTDIR="
+make: Nothing to be done for 'all'.
+
+current directory: /home/nilay/myWork/kudu-api/vendor/bundle/gems/json-1.8.6/ext/json
+make "DESTDIR=" install

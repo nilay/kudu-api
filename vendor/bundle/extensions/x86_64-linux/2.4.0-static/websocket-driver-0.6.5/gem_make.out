@@ -1,0 +1,15 @@
+current directory: /home/nilay/myWork/kudu-api/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+/home/nilay/.rbenv/versions/2.4.0/bin/ruby -r ./siteconf20170331-7309-joa2we.rb extconf.rb
+creating Makefile
+
+current directory: /home/nilay/myWork/kudu-api/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /home/nilay/myWork/kudu-api/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/nilay/myWork/kudu-api/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20170331-7309-15fnomg
